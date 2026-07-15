@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 8.0.5
+
+- Bug fix: [#126](https://github.com/harryfei/which-rs/pull/126) Do not use current directory for search when provided path is absolute. Thanks [@weifanglab](https://github.com/weifanglab) for your contribution to which!
+
 ## 8.0.4
 
 - On Windows we now emit a `NonFatalError` if the `PATHEXT` environment variable is not populated, and the query did not specify a file extension.
